@@ -1,14 +1,33 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color:#fffbf7;
+    background-color:#BFF1A8;
 }
 
+h1{
+    background-color: #232323;
+    color: #ffffff;
+    text-align: center;
+}
 h2,h3,h4,h5,h6{
     color: #46484c;
+    background-color: #F86A6A;
+    padding: 20px;
 }
 
+p{
+    background-color: #FECFB9;
+}
 b{
     color: #8b8b8bcc;
+}
+
+form{
+    padding: 20px;
+    background-color: #F1F1A8;
 }
 
 button{
