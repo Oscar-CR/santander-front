@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: #DEFFE7;
+}
+
 .header {
     margin: 40px 20px 0px 20px;
     font-size: 0;
