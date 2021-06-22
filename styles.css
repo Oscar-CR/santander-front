@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +16,14 @@
 
 li{
     display: inline;
+}
+
+.fixed-header{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header > * {
@@ -118,10 +128,12 @@ button{
     color: #025157;
     font-size: 40px;
     font-family: sans-serif;
+    font-family: "Alegreya";
 }
 
 .publicidad p{
     text-align: justify;
+    color: 343434;
 
 }
 
