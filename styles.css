@@ -21,7 +21,7 @@ li{
     font-size: 16px;
     vertical-align: middle;
     height: 100%;
-    line-height: 45px;
+    /* line-height: 45px; */
     margin-left:0 25px 0 25px;
 }
   
@@ -64,13 +64,13 @@ h1{
     color: #ffffff;
     text-align: center;
 }
-h2,h3,h4,h5,h6{
+/* h2,h3,h4,h5,h6{
     color: #46484c;
     background-color: #F86A6A;
     padding: 20px;
 }
-
-p{
+ */
+/* p{
     background-color: #FECFB9;
 }
 b{
@@ -81,8 +81,65 @@ form{
     padding: 20px;
     background-color: #F1F1A8;
 }
-
+ */
 button{
     color: #fff;
     background-color: #025157;
+}
+
+.video-publicidad{
+    display: flex;
+    justify-content: center;
+
+}
+
+.video-publicidad label{
+    color: #8b8b8bcc;    
+}
+
+.video{
+    width: 450px;
+    padding-right: 20px;
+}
+
+.video img{
+    display: flex;
+    width: 120px;
+    margin-left:150px ;
+}
+
+.publicidad{
+    width: 500px;
+}
+
+
+
+.publicidad h2{
+    color: #025157;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.publicidad p{
+    text-align: justify;
+
+}
+
+.publicidad input{
+    padding: 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #b6b6b6;
+}
+
+.publicidad button{
+    margin-left: -10px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    border: 0;
 }
