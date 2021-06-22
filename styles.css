@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 
 *{
     margin: 0;
@@ -7,15 +9,25 @@
 }
 
 .header {
-    margin: 40px 20px 0px 20px;
+    margin: 8px 0px 14px 20px;
     font-size: 0;
-    line-height: 45px;
     font-family:sans-serif;
 }
 
 
+html{
+    background-color: #CFEDDA;
+    font-family: "Open Sans";
+}
+
+main{
+    margin: 200px;
+
+}
+
 li{
     display: inline;
+    margin:0 5px 0 5px;
 }
 
 .fixed-header{
@@ -29,21 +41,23 @@ li{
 .header > * {
     display: inline-block;
     font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    /* line-height: 45px; */
-    margin-left:0 25px 0 25px;
+    height: 30px;
 }
   
 .logo {
     width: 15%;
 }
-  
+
+.logo img{
+    position: absolute;
+    margin-top: 8px;
+}
+
 .navbar {
     width: 70%;
     text-align: center;
-    text-align: left;
     color: #025157;
+
 }
   
 .actions {
@@ -60,6 +74,7 @@ li{
 .actions a{
     color: #67b54b;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .actions button{
@@ -67,6 +82,7 @@ li{
     padding: 12px 14px 14px 12px;
     color: #ffffff;
     border-radius: 5px;
+    border: none;
 }
 
 h1{
@@ -74,24 +90,7 @@ h1{
     color: #ffffff;
     text-align: center;
 }
-/* h2,h3,h4,h5,h6{
-    color: #46484c;
-    background-color: #F86A6A;
-    padding: 20px;
-}
- */
-/* p{
-    background-color: #FECFB9;
-}
-b{
-    color: #8b8b8bcc;
-}
 
-form{
-    padding: 20px;
-    background-color: #F1F1A8;
-}
- */
 button{
     color: #fff;
     background-color: #025157;
@@ -155,3 +154,112 @@ button{
     cursor: pointer;
     border: 0;
 }
+
+.ecommerce{
+    display: flex;
+    margin-top: 200px;
+    width: 100%;
+    background-color: #A1D683;
+    height: 800px;
+    padding:150px 0 0 200px;
+}
+
+.texto-marca{
+    width: 560px;
+}
+
+.texto-marca h2{
+    font-family: "Alegreya";
+    font-size: 50px;
+    color: #025157;
+}
+
+.texto-marca p{
+    font-size: 18px;
+    text-align: justify;
+    color: #343434;
+}
+
+.texto-marca button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.texto-marca img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.ecommerce .everly{
+    width: 290px;
+    height: 650px;
+    margin-left: 100px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: -80px;
+   
+}
+
+.ecommerce .everly .cabecera img{
+    width: 100%;
+    height: 220px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 10px;  
+}
+
+.ecommerce .everly .circulo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F9DA73;
+    margin-left: 160px;
+    margin-top: -80px;
+    
+}
+
+.ecommerce .everly .circulo img{
+    margin-top: 35px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.ecommerce .everly .titulo{
+    margin: 30px 0 0 20px;
+    font-family: "Slabo";
+    color: #02535D;
+    font-weight: 500;
+    
+}
+
+.ecommerce .everly .cuerpo{
+    margin: 10px 0 10px 20px;
+    width: 80%;
+    font-size: 24px;
+    
+}
+
+.ecommerce .everly .cuerpo2{
+    margin: 10px 0 30px 110px;
+    width: 45%;
+    font-size: 12px;
+    color: #8b8b8bcc;
+    
+}
+
+.ecommerce .everly .final button{
+    margin: 10%;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+
+
+
