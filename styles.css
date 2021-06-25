@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
 .header {
@@ -37,7 +38,7 @@ li{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1030;
+    z-index: 100;
     
 }
 
@@ -86,12 +87,6 @@ li{
     color: #ffffff;
     border-radius: 5px;
     border: none;
-}
-
-h1{
-    background-color: #232323;
-    color: #ffffff;
-    text-align: center;
 }
 
 button{
@@ -163,7 +158,6 @@ button{
     background-color: #A1D683;
     padding-top: 150px;
     padding-bottom: 120px;
-
 }
 
 .texto-marca{
@@ -209,7 +203,7 @@ button{
     margin-left: 100px;
     background-color: #fff;
     border-radius: 15px;
-    margin-top: -80px;
+    margin-top: -60px;
     
    
 }
@@ -334,3 +328,93 @@ button{
     width: 200%;
     height: 100%;
 }
+
+.matcha-work{
+    background-color: #FFFBF7;
+}
+
+.matcha-header{
+display: block;
+margin: auto;
+width: 600px;
+}
+
+ .matcha-header h2{
+    font-family: "Alegreya";
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+    color: #025157;
+}
+
+.matcha-header p{
+    font-family: 20px;
+    color: #46484c;
+    text-align: center;
+}
+
+.matcha-header a{
+    color: #6BB54F;
+    text-decoration: none
+}
+
+.matcha-header button{
+    width: 180px;
+    height: 45px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.work-contenedor{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 225px 225px 225px 225px;
+    column-gap:40px;
+    padding-bottom:60px;
+    margin-left: 10%;
+}
+.work-contenedor article{
+    width: 100%;
+    height: 610px;
+    display: block;
+    background-color: #FFF;
+    border:1px solid #DADADA ;
+    padding: 23px;
+}
+
+.work-contenedor .logo img{
+    width:50px ;
+    height: 50px;
+}
+
+.work-contenedor h3{
+    font-size: 30px;
+    font-family: "Alegreya";
+    text-align: center;
+    margin-top: 320px;
+    color: #0D5D62;   
+
+}
+
+.work-contenedor p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.work-contenedor a{
+    color: #6BB54F;
+    text-decoration: none;
+}
+
+.work-contenedor .person {
+    width: 225px;
+    height: 350px;
+    position: absolute;
+    margin: -20px 0 0 -52px;
+    overflow: hidden;
+}
+
