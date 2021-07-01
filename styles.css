@@ -10,9 +10,12 @@
 }
 
 .header {
-    margin: 8px 0px 14px 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 0;
-    font-family:sans-serif;
+    height: 45px;
+    font-family: sans-serif;
 }
 
 
@@ -29,7 +32,6 @@ main{
 
 li{
     display: inline;
-    margin:0 5px 0 5px;
 }
 
 .fixed-header{
@@ -45,7 +47,9 @@ li{
 .header > * {
     display: inline-block;
     font-size: 16px;
-    height: 30px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
 }
   
 .logo {
@@ -57,13 +61,14 @@ li{
     margin-top: 8px;
 }
 
+/*
 .navbar {
-    width: 70%;
+    width: 100%;
     text-align: center;
     color: #025157;
 
 }
-  
+*/
 .actions {
     width: 15%;
     text-align: right;
@@ -72,7 +77,8 @@ li{
 }
 
 .actions > *{
-  margin: 0 10px 0 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .actions a{
@@ -82,11 +88,14 @@ li{
 }
 
 .actions button{
+    color: white;
     background-color: #67b54b;
-    padding: 12px 14px 14px 12px;
-    color: #ffffff;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
     border-radius: 5px;
-    border: none;
 }
 
 button{
@@ -421,9 +430,11 @@ width: 600px;
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
+    /*
     .navbar,.actions {
       display: none;
     }
+    */
 
     main{
         margin-top: 60px;
