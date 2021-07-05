@@ -481,12 +481,21 @@ width: 600px;
 
     .video-publicidad{
         display: block;
-        width: 90%;
+        width: 100%;
         margin: auto;
+        padding: 5% 10% 0 5%;
+    
+    }
+    .video-publicidad .video video{
+        max-width: 90%;
     }
 
     .publicidad{
         width: 90%;
+    }
+
+    .publicidad p{
+        width: 100%;
     }
 
     
