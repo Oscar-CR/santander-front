@@ -36,7 +36,7 @@
     
 -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">
       <img
         src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
@@ -75,7 +75,7 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <a>Sign In</a>
-        <button>Start free trial</button>
+        <button class="btn btn-success">Start free trial</button>
       </form>
     </div>
   </nav>
@@ -105,7 +105,6 @@
       </div>
 </section>
 
-</section>
 
     <section class="video-publicidad">
         <div class="video">
@@ -255,6 +254,22 @@
         
     </section>
 
+    <section class="contacto-formulario">
+        <div class="formulario">
+            <h2><b>¡Escríbenos!</b></h2>
+            <form action="">
+
+                <p>Numero o correo de contacto</p>
+                <input class="form-control" name="contacto" type="text" placeholder="Escribe un correo o numero de telefono para contactarte">
+                <br>
+                <p>Mensaje</p>
+                <textarea class="form-control" name="mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <button class="btn btn-dark" type="submit" name="submit" onclick="alerta()">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -276,5 +291,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+
+
 </body>
 </html>
