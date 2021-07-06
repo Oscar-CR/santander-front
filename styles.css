@@ -104,6 +104,7 @@ button{
 }
 
 .video-publicidad{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -472,26 +473,22 @@ width: 600px;
       display: none;
     }
     */
-    html{
-        overflow-x: hidden;
-    }
-    main{
-        margin-top: 60px;
-    }
 
     .video-publicidad{
+        margin-top: 60px;
         display: block;
-        width: 100%;
-        margin: auto;
-        padding: 5% 10% 0 5%;
-    
+        width: 100%;    
     }
     .video-publicidad .video video{
-        max-width: 90%;
-    }
+        width: 85%;
+        overflow-x: hidden;
+        margin: 0 5% 0 5%;
 
+    }
+    
     .publicidad{
-        width: 90%;
+        width: 100%;
+        padding: 0 5% 0 5%;
     }
 
     .publicidad p{
@@ -515,15 +512,18 @@ width: 600px;
     cursor: pointer;
     border: 0;
     font-size: 18px;
+    margin-bottom: 40px;
     }
 
     .features{
        width: 100%; 
        grid-template:repeat(4,1fr)/1fr;
-       padding: 5% 10% 0 5%;
     }
-     .feature-art {
+     .feature-art{
         width: 100%;
+        height: auto;
+        padding: 20px 5% 20px 5%;
+        margin: 20px 0 20px 0 ;
     }
 
     .feature-art .picture{
@@ -532,38 +532,47 @@ width: 600px;
 
     .feature-art p{
         width: 100%;
+
     }
 
     .ecommerce{
         display: block;
+        width: 100%;
+    }
+
+    .ecommerce p{
+        width: 100%;
     }
 
     .ecommerce .texto-marca{
         width: 100%;       
-        padding: 0 10% 0 10%;
+        padding: 0 5% 0 5%;
         margin-top: -100px;
     }
     
-    .ecommerce .everly{
-        margin: 0 10% 0 10%;     
-        width: 80%;    
+    .ecommerce .everly {
+        margin-top: 60px;
+        width: 60%;  
+        margin-left: 20%;  
     }
-
-    .ecommerce .everly>*{
-        width: 100%;
-        margin-top: 80px;
-        border-radius: 15px;           
-    }
-
     
     .ecommerce .everly .cabecera img{
        width: 100%;       
     }
 
     .ecommerce .everly .circulo { 
-        position: absolute;
-        margin-left: 50%;
+        margin-left: 40%;
+        margin-top: -30px;
+        width: 65px;
+        height: 65px;
     }
+
+    .ecommerce .everly .circulo img { 
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+
 
     .matcha-work>*{
         width: 90%;
@@ -572,7 +581,11 @@ width: 600px;
         margin-left: 5%;
     } 
     
-
+    .matcha-header p{
+        width: 100%;
+        text-align: center;
+    }
+  
     .work-contenedor article{
         margin-bottom: 20px;
         height: auto;
@@ -602,6 +615,10 @@ width: 600px;
 
     .formulario{
         width: 90%;
+    }
+
+    html{
+        overflow-x: hidden;
     }
 
 }
